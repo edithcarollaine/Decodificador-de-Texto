@@ -115,7 +115,7 @@ body {
     cursor: pointer;
     font: var(--cor-quatro);
     font-weight: 600;
-    width: 8.5rem;
+    width: 10rem;
 }
 .main-botao-conteudo:hover {
     background-color: var(--cor);
