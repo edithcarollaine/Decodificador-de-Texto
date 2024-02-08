@@ -1,0 +1,1 @@
+# Projeto em andamento e funcionando apenas para DESKTOP.
