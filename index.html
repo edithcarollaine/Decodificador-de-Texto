@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador</title>
+</head>
+    <body>
+        <header>
+            <nav class="sidebar">
+                <img class="sidebar__image" src="./assets/icone.png" alt="logo">
+            </nav>
+        </header>
+
+
+        <main class="main">
+            <div class="main-conteudo">
+                <div class="main-conteudo-encriptador">
+                    <textarea class="main-conteudo-text" type="text" id="texto" rows="20" cols="50" placeholder="Digite seu texto aqui"></textarea>
+                    <br>
+                    <br>
+                    <textarea class="main-conteudo-resultado" readonly id="resultado" rows="10" cols="50" placeholder="Nenhuma mensagem encontrada"></textarea>
+                </div>
+                <br>
+                <br>
+                <div class="main-botao">
+                    <button class="main-botao-conteudo" id = botao_um onclick = 'criptografar()'>Criptografar</button>
+                    <button class="main-botao-conteudo" id = botao_dois onclick = 'descriptografar()'>Descriptografar</button>
+                    <button class="main-botao-conteudo" id = botao_tres onclick = 'copiarTexto()'>Copiar</button>
+                    <button class="main-botao-conteudo" id = botao_quatro onclick = 'limparAreaT()'>Limpar tudo</button>
+                </div>
+            </div>
+            <div>
+                <h3 id='paragrafo_um'></h3>
+                <p id='paragrafo_dois'></p>
+            </div>
+        </main>
+
+
+        <footer class="rodape">
+            <a href="https://portifolio-edithcarollaine.vercel.app/">Desenvolvido por Edith Carollaine<a>
+            <a href="https://www.javascript.com/">Javascript</a>
+        </footer>
+
+
+        <script src="script.js" defer></script>
+    </body>
+</html>

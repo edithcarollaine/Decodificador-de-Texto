@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+:root {
+    --cor-um: #B4B4B8;
+    --cor-dois: #C7C8CC;
+    --cor-tres: #E3E1D9; 
+    --cor-quatro: #F2EFE5;
+    --cor-cinco: #000000;
+
+    --font-um: 'Roboto Slab', serif;
+
+    --spacing-gutter-large: 4rem;
+    --spacing-gutter-medium: 3rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: var(--cor-um);
+}
+
+.sidebar {
+    margin: 0 35rem 0 1rem;
+}
+
+.sidebar img {
+    width: 10rem;
+}
+
+.sidebar__image:hover {
+    background-color: var(--cor-dois);
+    transition: all 400ms;
+    box-shadow: 0 0 15px var(--cor-quatro);
+}
+
+.main-conteudo {
+    max-width: 150rem;
+    /* margin: 0 auto; */
+}
+
+.main-conteudo-encriptador {
+    padding: 0 14rem;
+    display: flex;
+    gap: 1rem;
+    max-width: 60rem;
+}
+
+.main-conteudo-text {
+    border: none;
+    background: none;
+    outline: none;
+    resize: none;
+    /* margin: 0 auto; */
+
+    display: inline-block;
+    position: relative;
+    max-width: 64rem;
+    top: -1rem;
+    width: 45rem;
+    height: 26rem;
+    left: 5rem;
+
+    color: var(--cor-cinco);
+    max-width: 64rem;
+    width: 100rem;
+    font: var(--font-um);
+    font-weight: 600;
+}
+
+.main-conteudo-resultado {
+    color: var(--cor-quatro);
+    resize: none;
+    border: none;
+    outline: none;
+
+    border: 2rem solid var(--cor-tres);
+    border-radius: 1rem;
+    box-shadow: 0 0 20px var(--cor-dois);
+    outline: 0.1rem solid var(--cor-tres);
+    color: var(--cor-cinco);
+    background-color: var(--cor-tres);
+    font: var(--font-um);
+    font-weight: 600;
+
+    display: inline-block;
+    position: relative;
+    max-width: 64rem;
+    top: -8rem;
+    width: 60rem;
+    height: 33rem;
+    left: 12rem;
+}
+
+.main-botao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    margin-right: 1150px;
+    margin-top: -580px;
+}
+
+.main-botao-conteudo {
+    background-color: var(--cor-um);
+    border-radius: 10px;
+    color: var(--cor-cinco);
+    padding: 20px 20px;
+    text-align: center;
+    display: inline-block;
+    outline: 0.1rem solid var(--cor-quatro);
+    box-shadow: 0 0 15px var(--cor-dois);
+    cursor: pointer;
+    font: var(--cor-quatro);
+    font-weight: 600;
+    width: 8.5rem;
+}
+.main-botao-conteudo:hover {
+    background-color: var(--cor);
+    transition: all 300ms;
+    box-shadow: 0 0 15px var(--cor-quatro);
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cor-cinco);
+    color: var(--cor-quatro);
+    padding: 2rem;
+    margin: 8rem 0;
+    margin-bottom: 0;
+}
+
+.rodape a {
+    color: var(--cor-tres);
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
+}
+
+.rodape a:hover {
+    filter: brightness(.8);
+    text-shadow: 0 0 15px var(--cor-dois);
+}
