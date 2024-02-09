@@ -2,6 +2,8 @@
 
 * Projeto em andamento e funcionando apenas para DESKTOP. (Ainda não está responsivo)
 
+* Site publicado com GitHub Pages: edithcarollaine.github.io
+
 # Funcionalidades
 
 * Codifica;
