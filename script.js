@@ -12,7 +12,7 @@ function criptografar() {
 
 // descriptografia
 
-function descriptografar() {
+function decriptografar() {
 
     var descriptografar = (document.getElementById('texto').value);
 
